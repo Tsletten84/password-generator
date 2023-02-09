@@ -1,14 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Orbitron&display=swap');
-@font-face {
-    font-family: Karla;
-    src: url(sansation_light.woff);
-  }
+
 
 body{
 width: 550px;
 height: 550px;
 left: 61px;
-top: 64px;
+
 
 background: #1F2937;
 }
@@ -18,6 +14,10 @@ background: #1F2937;
     height: 80px;
     margin-top: 115px;
     margin-left: 52px;
+}
+
+h1{
+    font-weight: bold;
 }
 
 #title1{
@@ -58,15 +58,31 @@ margin-top: 150px;
 border: 1px solid #2F3E53;
 }
 
-.password-container{
-color:#10B981;
-width: 211px;
-height: 39px;
-margin-left: 52px;
-margin-top: 20px;
-background: #273549;
-border-radius: 6px;
+.password-containerOne{
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    font-size: 10px;
+    color:#10B981;
+    width: 211px;
+    height: 39px;
+    margin-left: 52px;
+    margin-top: 20px;
+    background: #273549;
+    border-radius: 6px;
 }
+
+.password-containerTwo{
+    text-align: center;
+    font-size: 10px;
+    color:#10B981;
+    width: 211px;
+    height: 39px;
+    margin-left: 52px;
+    margin-top: 20px;
+    background: #273549;
+    border-radius: 6px;
+ }
 
 .flex{
     display:flex;
